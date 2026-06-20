@@ -1,0 +1,103 @@
+
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.container{
+    display:grid;
+grid-template-columns: 1fr 2fr;
+
+height:100vh;}
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image:
+    url('https://images.unsplash.com/photo-1776914579657-3396d13eb13e?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size:cover;
+}
+.right form{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.top{
+    flex:1;
+    margin:10px;
+}
+.middle{
+    flex:2;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.bottom{
+    flex:1;
+    
+    display:flex;
+    flex-direction:column;
+}
+.bottom button{
+    padding:8px 16px;
+    margin:16px;
+    border-radius:4px;
+    width:15%;
+}
+.bottom label{
+    padding:8px;
+    font-style: oblique;;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px 24px;
+    padding:16px;
+}
+
+.field{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.field label{
+    font-size:14px;
+    font-weight:500;
+}
+
+.field input{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    width:60%;
+    box-sizing:border-box;
+}
+#logo{
+    background-color: #ccc;
+    padding:16px;
+    display:inline-block;
+    border-radius:8px;
+    margin: auto;
+    ;
+}
+.logo{
+    width:200px;
+    height:auto;
+    display:block;
+}
+footer{
+    padding: 8px 16px;
+    background-color:rgba(0,0,0,0.4);
+    align-self: center;
+}
+footer p{
+color:white;
+font-size: 11px;
+margin:0;
+}
+
+footer a{
+    color: #ddd;
+}

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background-color:teal;
+    justify-content: space-between;
+}
+
+.add{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;   
+    flex:1;
+    height:100%;
+}
+.display{
+    color:white;
+    flex:1;
+    background:pink;
+    height: 100%;
+    width:100%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    flex-direction:column;
+    gap:5px;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+}
+
+
+.book{
+    width:100%;
+}
+
+.remove-button{
+    align-self:center;
+    justify-self:center;
+}

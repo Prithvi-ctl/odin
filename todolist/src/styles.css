@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+ 
+
+body{
+    height:100vh;
+    background-image:url("../backdrop.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+.Box{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin:10px;
+    padding:10px;
+    
+    color:white;
+
+    background: rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:10px;
+
+      box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.Box h2{
+    font-weight:900;
+    font-size:35px;
+    font-family:"Pixelify Sans", sans-serif;
+}
+.Box p{
+    font-family:"Pixelify Sans", sans-serif;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap:10px;
+    width:100%;
+
+    background: rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:10px;
+    
+    
+}
+.container1{
+    display:flex;
+    flex-direction:row;
+    
+    color:white;
+
+    gap:10px;
+    border:5px solid pink;
+
+    background: rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:10px;
+
+     box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.container1 h1{
+    justify-content: center;
+    flex:1;
+    display:flex;
+    align-self: center;;
+    font-family:"Pixelify Sans", sans-serif;
+    margin:10px;
+    padding:10px;
+}
+.task{
+    color:white;
+    font-family:"Pixelify Sans", sans-serif;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.task1-title{
+    
+    align-self:center;
+}
+
+.subtask-container{
+    margin:auto;
+    padding:10px;
+
+    background: rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:10px;
+
+     box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+    justify-self:center;
+}
+
+
+
+.btn{
+       backdrop-filter: blur(10px);
+    background:rgba(0,0,0,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    color:white;
+    border-radius:5px;
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow:
+    0 8px 32px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+.add-subtask-btn{
+       backdrop-filter: blur(10px);
+    background:rgba(0,0,0,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    color:white;
+    border-radius:5px;
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow:
+    0 8px 32px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+.delete-task-btn{
+    backdrop-filter: blur(10px);
+    background:rgba(0,0,0,0.1);
+    border:1px solid rgba(255,255,255,0.2);
+    color:white;
+    border-radius:5px;
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow:
+    0 8px 32px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+
+    font-family:"Pixelify Sans", sans-serif;
+}
+
+
+.subtask{
+    color:white;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.subtask{
+    display:flex;
+    justify-content: center;
+}

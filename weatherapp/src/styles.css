@@ -1,0 +1,60 @@
+body{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    gap:10px;
+
+}
+
+header{
+    backdrop-filter: blur(10px);
+    background:rgba(0,0,0,0.1);
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:10px;
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) ;
+    background:url("./tree-and-house-background-3zlq4invyn0amspd.webp");
+    background-size:cover;
+
+    display:flex;
+    justify-content:center;
+}
+.Box{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:20px;
+    
+    /* glass */
+    backdrop-filter: blur(10px);
+    background:rgba(0,0,0,0.1);
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:10px;
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) ;
+    background:url(./sunny-weather-with-cherry-blossom-fr2tn0f21evp0viw.webp);
+    background-size:cover;
+}
+
+footer{
+    backdrop-filter: blur(10px);
+    background:url(./sky-27-7ekrlok6ioyuf8ks.webp);
+    background-size:cover;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:10px;
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1) ;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+
