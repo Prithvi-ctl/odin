@@ -50,7 +50,8 @@ btn.addEventListener("click",()=>{
      btn.classList.add("hide");
     setTimeout(()=>{
        
-        img.classList.add("show");
+        img.classList.add("show");h
+        
     
     },6000)
   }
