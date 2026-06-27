@@ -40,7 +40,6 @@ btn.addEventListener("click",()=>{
     label.textContent = currentphase.text;
 
     if(currentphase.bgClass){
-        //  body.classList.remove("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
         body.classList.add(currentphase.bgClass);
     }
   }     
@@ -53,7 +52,7 @@ btn.addEventListener("click",()=>{
        
         img.classList.add("show");
     
-    },6100)
+    },6000)
   }
   
   

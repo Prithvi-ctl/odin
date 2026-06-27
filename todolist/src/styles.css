@@ -4,7 +4,7 @@
 
 body{
     height:100vh;
-    background-image:url("../backdrop.jpg");
+    background:url("../backdrop.jpg");
     background-size:cover;
     background-position:center;
 }

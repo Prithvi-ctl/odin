@@ -3,7 +3,7 @@ import { watch } from "node:fs";
 import path from "node:path";
 export default {
     mode:"development",
-    entry:"./url/index.js",
+    entry:"./src/index.js",
     output:{
         filename:"bundle.js",
         path:path.resolve(import.meta.dirname,"dist"),
@@ -11,14 +11,14 @@ export default {
     },
     devtool:"eval-source-map",
     devServer:{
-        watchFiles:"./url/template.html",
+        watchFiles:"./src/template.html",
     },
     devServer:{
-        watchFiles:"./url/template.html",
+        watchFiles:"./src/template.html",
     },
     plugins:[
         new HtmlWebpackPlugin({
-            template:"./url/template.html"
+            template:"./src/template.html"
         })
     ],
     module:{
