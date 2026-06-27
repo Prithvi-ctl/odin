@@ -1,0 +1,153 @@
+.body{
+    height:100vh;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    background:url("../assets/deepfield.jpg");
+
+    margin:0;
+}
+
+
+.a{
+    background: url("../assets/white1.png");
+}
+.b{
+    background: url("../assets/white2.png");
+}
+.c{
+    background: url("../assets/white3.png");
+}
+.d{
+    background: url("../assets/white4.png");
+}
+.e{
+    background: url("../assets/white5.png");
+}
+.f{
+    background: url("../assets/white6.png");
+}
+.g{
+    background: url("../assets/white7.png");
+}
+.h{
+    background: url("../assets/white8.png");
+}
+.i{
+    background: url("../assets/white9.png");
+}
+.j{
+    background: url("../assets/white10.png");
+}
+
+.brick{
+    background:url("../assets/blackhole.gif");
+    background-size:cover;
+}
+
+
+main{
+
+    flex:1;
+    display:flex;
+
+    background:url(../assets/white.png  );
+}
+
+.container{
+    flex:1;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.btn{
+    border-radius: 50%;
+    width:128px;
+    height:128px;
+    z-index:1;
+  
+    
+
+}
+.img{
+     
+    height:200px;
+    width:350px;
+    z-index:1;
+    background:url(../assets/blackhole.gif);
+    background-size:cover;
+    position:absolute;
+    left:42%;
+    top:37%;
+    display:none
+}
+.btn.hide{
+    display:none;
+}
+.img.show{
+    display:block;
+    
+}
+
+.color{
+    background-color:darkred;
+}
+
+
+
+.left{
+    position:absolute;
+    opacity:0;
+    background:url(../assets/p.png);
+    height:100%;
+    width:100%;
+    background-size:cover;
+}
+
+.left.active{
+    animation: 6s all ease-in forwards;
+}
+@keyframes all{
+   from{
+    opacity:0.25;
+    transform: translateX(-100%); /* Starts off-screen to the left */
+   }
+
+   to{
+    opacity:1;
+    transform: translateX(0%); /* Your final resting point */
+   }
+}
+
+
+.right{position:absolute;
+    background:url(../assets/rightside.png);
+    background-size:cover;
+    opacity:0;
+    
+    height:100%;
+    width:100%;
+   
+}
+.right.active{
+     animation:6s al ease-in forwards;}
+
+
+@keyframes al {
+  
+    from{
+        opacity:0.25;
+        transform:translateX(100%);
+
+    }
+    to{
+        opacity:1;
+        transform:translateX(18%);
+    }
+}

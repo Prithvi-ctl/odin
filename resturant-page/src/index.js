@@ -8,7 +8,7 @@ title.classList.add("title");
 
 const img = document.createElement("img");
 img.classList.add("logo");
-img.src = logo;
+img.url = logo;
 img.alt = "Resturant Logo";
 
 title.appendChild(img);
